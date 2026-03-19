@@ -1,0 +1,7 @@
+﻿venv/
+data/bigvul.csv
+data/tokenized.pkl
+data/tokenized_small.pkl
+__pycache__/
+*.pyc
+model/saved/

@@ -1,0 +1,15 @@
+﻿{
+  "manifest_version": 3,
+  "name": "BugFinder - C++ Code Analyzer",
+  "version": "1.0",
+  "description": "Real-time C++ bug detection on LeetCode",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://leetcode.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
