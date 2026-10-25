@@ -123,7 +123,7 @@ bugfinder/
 
 ### 1. Install dependencies
 `ash
-git clone https://github.com/siddhantvaibhav/bugfinder
+git clone https://github.com/VaibhavSiddhant/bugfinder
 cd bugfinder
 python -m venv venv
 venv\Scripts\activate
