@@ -2,6 +2,9 @@
 data/bigvul.csv
 data/tokenized.pkl
 data/tokenized_small.pkl
+data/__pycache__/
+model/saved/
 __pycache__/
 *.pyc
-model/saved/
+*.pyo
+.env
